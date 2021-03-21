@@ -28,6 +28,7 @@ class ViewController: UIViewController, WKUIDelegate, UIScrollViewDelegate {
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
         
+        // disabilita il force touch
         webView.allowsLinkPreview = false
         
         // disabilita il pinch to zoom
